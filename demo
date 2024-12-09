@@ -6,6 +6,11 @@
             comment_button = driver.find_element(By.CSS_SELECTOR,"div[data-testid='reply']")
             comment_button.click()  # click on comment button
 
+            time.sleep(2)
+
+            comment_button = driver.find_element(By.CSS_SELECTOR,"div[data-testid='reply']")
+            comment_button.click()  # click on comment button
+
             time.sleep(1)
 
             send_button = driver.find_element(By.CLASS_NAME, 'public-DraftStyleDefault-ltr')
