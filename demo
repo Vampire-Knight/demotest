@@ -8,6 +8,11 @@
 
             time.sleep(2)
 
+            time.sleep(2)
+
+            comment_button = driver.find_element(By.CSS_SELECTOR,"div[data-testid='reply']")
+            comment_button.click()  # click on comment button
+
             comment_button = driver.find_element(By.CSS_SELECTOR,"div[data-testid='reply']")
             comment_button.click()  # click on comment button
 
